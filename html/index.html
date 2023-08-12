@@ -8,23 +8,56 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
-    <h1>Registation Form</h1>
-    <p>Fill out the form carefully for registration</p>
+    <header>
+        <h1>Registration Form</h1>
+        <p>Fill out the form carefully for registration.</p>
+    </header>
 
-    <form action="">
-        <label for="fname">First Name:</label>
-        <input type="text" id="fname" name="fname">
+    <main>
+        <form action="" class="form" target="_self" autocomplete="on">
+            <div class="grid">
+                <label for="fname" class="left">First Name:</label>
+                <input type="text" id="fname" name="fname" class="right padding" required>
+            </div>
+            
+            <div class="grid">
+                <label for="mname">Middle Name:</label>
+                <input type="text" name="mname" id="mname" class="right padding">
+            </div>
+            
+            <div class="grid">
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" class="right padding" required>
+            </div>
+            
+            <div class="grid">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob" class="right padding" required onclick="calculateAge()">
+            </div>
+            
+            <div class="grid">
+                <label for="age">Age:</label>
+                <input type="text" name="age" id="age" class="right padding" required>
+            </div>
+            
+            <div class="grid">    
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" class="right padding" required>
+                    <option value="please-select">Please Select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="do-not-say">Do not say</option>
+                </select>
+            </div>
+            
+            <div class="center">
+                <button type="submit" class="btn">Submit</button>
+                <button type="reset" class="btn">Reset</button>
+            </div>
+        </form>
         
-        <label for="lname">Last Name:</label>
-        <input type="text" id="lname" name="lname">
+    </main>
 
-        <label for="dob">Date of Birth:</label>
-        <input type="date" name="dob" id="dob">
-
-        <label for="age">Age:</label>
-        <input type="text" name="age" id="age" readonly>
-
-        <label for=
-    </form>
+    <script src="/js/script.js"></script>
 </body>
 </html>

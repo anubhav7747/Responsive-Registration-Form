@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
+body {
+    background-color: #efefef;
+    /* border: 2px solid orange; */
+}
+
+h1, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    /* border: 2px solid seagreen; */
+    font-weight: lighter;
+    font-size: 3rem;
+    margin-top: 45px;
+    /* margin-left: 15rem; */
+    text-align: center;
+}
+
+p {
+    font-size: 1.25rem;
+    /* margin-left: px; */
+    margin-top: 12px;
+    text-align: center;
+}
+
+
+.form {
+    border: 5px solid black;
+    border-radius: 25px;
+    /* border: 2px solid red; */
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin-bottom: 20px;
+}
+
+.right {
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-right: 1.25rem;
+}
+
+input[type="text"]:focus {
+    background-color: antiquewhite;
+}
+
+.padding {
+    padding-left: 5px;
+    font-size: medium;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    width: 7rem;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 3px;
+    background-color: lightsteelblue;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: lightslategray;
+    color: white;
+}
