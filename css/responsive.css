@@ -1,0 +1,168 @@
+@media screen and (max-width: 1220px){
+    .fa-ma-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-ma-name > input {
+        margin-top: 10px;
+        width: 57.5vw;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 940px) {
+    .guard-name, .mob-no {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guard-name > input, .mob-no > input {
+        margin-top: 10px;
+        width: 57vw;
+        height: 30px;
+    }
+
+    .fa-ma-name > input {
+        margin-top: 10px;
+        width: 57vw;
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width: 832px) {
+    .mar-sta {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mar-sta div {
+        margin-top: 10px;
+    }
+
+    .guard-name > input, .mob-no > input, .fa-ma-name > input {
+        margin-top: 10px;
+        width: 56.5vw;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .mid-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input {
+        margin-top: 10px;
+        width: 56.5vw;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 777px) {
+    .date-birth {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .date-birth > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input {
+        margin-top: 10px;
+        width: 56.5vw;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .first {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input, .date-birth > input {
+        margin-top: 10px;
+        width: 56vw;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 649px) {
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 3rem;
+    }
+
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    .grid {
+        font-size: 25px;
+    }
+
+    .last {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last > input, .first > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input, .date-birth > input {
+        margin-top: 10px;
+        width: 56vw;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 557px) {
+    .age-dob {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .age-dob > input, .last > input, .first > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input, .date-birth > input {
+        margin-top: 5px;
+        width: 54.80vw;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .marital {
+        margin-right: 0;
+    }
+
+    .marital label {
+        margin-right: 7px;
+    }
+}
+
+
+@media screen and (max-width: 530px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .grid {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 430px) {
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    .grid {
+        font-size: 18px;
+    }
+}
