@@ -80,8 +80,12 @@ input[type="text"]:focus {
     cursor: pointer;
 }
 
-.marital label {
+.marital .marry {
     margin-right: 25px;
+}
+
+.marry, .unmar {
+    margin-top: -5px;
 }
 
 .center {
@@ -112,3 +116,60 @@ select {
 input[type="date"] {
     cursor:pointer;
 }
+
+
+/* Laptop L-1440px */
+/* Laptop 1024px */
+/* Tablet 768px */
+@media screen and (max-width: 769px) {
+    .grid {
+        font-size: large;
+    }
+}
+
+
+/* Mobile L-425px */
+@media screen and (max-width: 426px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .form {
+        width: 75vw;
+    }
+    
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid > input, .grid > select, .grid > div {
+        margin-top: 5px;
+    }
+
+    .btn {
+        font-size: medium;
+        width: 5.5rem;
+    }
+}
+
+
+/* Mobile M-375px */
+/* @media screen and (max-width: 375px), (min-width: 320px) {
+    .marital {
+        display: flex;
+    }
+} */
+
+
+/* Mobile S-320px */
+/* @media screen and (max-width: 320px) {
+    .marital {
+        font-size: 16px;
+    }
+} */

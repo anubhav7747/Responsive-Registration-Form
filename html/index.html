@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <!-- <link rel="stylesheet" href="/css/dimension.css"> -->
+    <!-- <link rel="stylesheet" href="/css/responsive.css"> -->
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 <body>
     <header>
@@ -43,7 +44,7 @@
             
             <div class="grid date-birth">
                 <label for="dob">Date of Birth:</label>
-                <input type="date" name="dob" id="dob" class="right padding" required onclick="calculateAge()">
+                <input type="date" name="dob" id="dob" class="right padding" required >
             </div>
             
             <div class="grid age-dob">
@@ -51,7 +52,7 @@
                 <input type="number" name="age" id="age" class="right padding" required>
             </div>
             
-            <div class="grid">    
+            <div class="grid gen">    
                 <label for="gender">Gender:</label>
                 <select name="gender" id="gender" class="right padding" required>
                     <option value="please-select">Please Select</option>
@@ -64,8 +65,8 @@
             <div class="grid mar-sta">    
                 <label for="mstatus">Marital Status:</label>
                 <div class="marital">
-                    <input type="radio" name="mstatus" id="married" ><label for="married">Married</label>
-                    <input type="radio" name="mstatus" id="unmarried" ><label for="unmarried">Unmarried</label>
+                    <input type="radio" name="mstatus" id="married" ><label for="married" class="marry">Married</label>
+                    <input type="radio" name="mstatus" id="unmarried" ><label for="unmarried" class="unmar">Unmarried</label>
                 </div>
             </div>
             

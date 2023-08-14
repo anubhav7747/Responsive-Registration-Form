@@ -1,4 +1,4 @@
-console.log("Starting");
+// console.log("Starting");
 
 function calculateAge() {
     var userInput = document.getElementById("dob").value;

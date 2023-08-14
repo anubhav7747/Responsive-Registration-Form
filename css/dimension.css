@@ -1,0 +1,233 @@
+/* Dimensions: Galaxy Fold */
+/* @media screen and (max-width: 281px) and (max-height: 654px), (min-width: 279px) and (min-height: 652px) {
+    .form {
+        padding-left: 5px;
+    }
+
+    .grid {
+        font-size: 1rem;
+    }
+
+    .gen {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gen > select {
+        margin-top: 5px;
+        width: 57vw;
+        height: 25px;
+    }
+
+    .marital {
+        display: grid;
+        grid-template-columns: 0.25fr 1fr;
+    }
+
+    .marital > input {
+        transform: scale(0.75);
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .age-dob > input, .last > input, .first > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input, .date-birth > input {
+        width: 54vw;
+        height: 20px;
+    }
+    
+    .btn {
+        font-size: medium;
+        width: 4.5rem;
+    }
+} */
+
+
+
+/* Dimensions: Surface Duo */
+/* @media screen and (max-width: 541px) and (max-height: 721px), (min-width: 539px) and (min-height: 719px) {
+    .form {
+        padding-left: 10px;
+    }
+    
+    .grid {
+        font-size: 1.25rem;
+    }
+
+    .age-dob > input, .last > input, .first > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input, .date-birth > input {
+        width: 56.25vw;
+        height: 22px;
+    }
+
+    .gen > select {
+        width: 57.5vw;
+        height: 30px;
+    }
+
+    .marital > #married {
+        transform: scale(0.65);
+        margin-top: 0.5px;
+    }
+    
+    .marital > #unmarried {
+        transform: scale(0.65);
+        margin-top: 7px;
+    }
+
+    .marital > label{
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    
+    .marital > .unmar {
+        margin-top: 2px;
+    }
+
+    .btn {
+        font-size: large;
+        width: 5rem;
+    }
+} */
+
+
+
+/* Dimension: Surface Pro 7 */
+/* @media screen and (max-width: 913px) and (max-height: 1368px), (min-width: 911px) and (min-height: 1367px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    p {
+        font-size: 2.10rem;
+    }
+
+    .form {
+        width: 85vw;
+        margin-top: 75px;
+    }
+
+    .grid {
+        font-size: 2rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .fa-ma-name {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fa-ma-name > input {
+        width:82vw;
+    }
+    
+    .age-dob > input, .last > input, .first > input, .mid-name > input, .guard-name > input, .mob-no > input, .fa-ma-name > input, .date-birth > input {
+        height: 30px;
+    }
+
+    .date-birth > input {
+        font-size: 20px;
+    }
+
+    .guard-name > input, .mob-no > input {
+        margin-top: 1px;
+    }
+    
+    .gen > select {
+        height: 35px;
+        margin-top: 1px;
+    }
+
+    #gender > option {
+        font-size: 10px;
+    }
+
+    .marital {
+        margin-left: -155px;
+        display: flex;
+    }
+
+    #married, #unmarried {
+        margin-left: 5px;
+        margin-right: 25px;
+        cursor: pointer;
+    }
+    
+    .marital > #married {
+        transform: scale(1.25);
+        margin-top: 10px;
+    }
+
+    .marital > .marry {
+        margin-top: 1px;
+    }
+
+    .marital > #unmarried {
+        transform: scale(1.25);
+        margin-top: 10px;
+    }
+} */
+
+
+/* Laptop L-1440px */
+/* Laptop 1024px */
+/* Tablet 768px */
+@media screen and (max-width: 768px), (min-width: 425px) {
+    h1 {
+        margin-top: 25px;
+    }
+
+    p {
+        margin-top: 7px;
+    }
+
+    .form {
+        font-size: 20px;
+    }
+}
+
+
+/* Mobile L-425px */
+@media screen and (max-width: 425px), (min-width: 375px) {
+    h1 {
+        font-size: 1.90rem;
+    }
+
+    p {
+        font-size: 0.80rem;
+    }
+
+    .form {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid > input, .grid > select, .grid > div {
+        margin-top: 5px;
+    }
+
+    .btn {
+        font-size: medium;
+        width: 5rem;
+    }
+}
+
+
+/* Mobile M-375px */
+@media screen and (max-width: 375px), (min-width: 320px) {
+    .marital {
+        display: flex;
+    }
+}
+
+
+/* Mobile S-320px */
+@media screen and (max-width: 320px) {
+    .marital {
+        font-size: 16px;
+    }
+}
